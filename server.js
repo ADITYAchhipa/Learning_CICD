@@ -9,7 +9,7 @@ app.get("/",(req,res)=>{
 
 
 app.get("/health",(req,res)=>{
-    res.json({message:"Route is Healtht"});
+    res.json({message:"Route is not Healthy"});
 })
 
 
